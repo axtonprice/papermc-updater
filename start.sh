@@ -2,13 +2,6 @@
 #$1 = {SERVER_MEMORY}
 #$2 = {MINECRAFT_VERSION}
 
-# Auto EULA setter
-echo "[Arizon Software] Automatically updating eula.txt..."
-cat <<EOF >eula.txt
-eula=true
-EOF
-echo "[Arizon Software] Successfully updated eula.txt"
-
 # Dynamically adjust memory based on total server memory (in MB)
 if [ "$1" -ge 10000 ]; then
   # For 10GB+ memory, reduce by 15%
@@ -34,7 +27,7 @@ fi
 echo "[Arizon Software] Adjusted server memory to ${adjusted_memory}MB"
 
 # Determine version
-url='https://papermc.io/api/v2/projects/paper'
+url='https://api.papermc.io/v2/projects/paper'
 version=$2
 if [ "$version" = "latest" ]; then 
   version=$(curl -sSfL "$url"); 
