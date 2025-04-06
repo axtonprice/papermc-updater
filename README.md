@@ -2,7 +2,7 @@
 
 ## Overview
 
-This script automates the process of updating PaperMC, auto-accepting the `eula.txt`, and starting it with an optimal memory allocation. When running a Minecraft server in a containerized environment such as Pterodactyl, it's essential to allocate memory wisely to avoid crashes or performance issues.
+This script automates the process of updating PaperMC and starting it with an optimal memory allocation. When running a Minecraft server in a containerized environment such as Pterodactyl, it's essential to allocate memory wisely to avoid crashes or performance issues.
 
 ![image](https://github.com/user-attachments/assets/882c6190-6e36-46a0-af06-1735ec686c94)
 
