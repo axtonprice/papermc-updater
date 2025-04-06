@@ -4,8 +4,7 @@
 
 This script automates the process of updating PaperMC and starting it with an optimal memory allocation. When running a Minecraft server in a containerized environment such as Pterodactyl, it's essential to allocate memory wisely to avoid crashes or performance issues.
 
-![image](https://github.com/user-attachments/assets/882c6190-6e36-46a0-af06-1735ec686c94)
-
+![image](https://github.com/user-attachments/assets/c8bc7c9d-3b21-4b4b-bfe6-e5995a34164d)
 
 ## Why Memory Adjustment is Necessary
 
