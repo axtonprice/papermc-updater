@@ -4,9 +4,9 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-02-12T15:36:55+00:00",
+    "exported_at": "2026-05-24T15:36:55+00:00",
     "name": "PaperMC (Auto-update)",
-    "author": "parker@pterodactyl.io",
+    "author": "axton@arizon.dev",
     "description": "High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.",
     "features": [
         "eula",
